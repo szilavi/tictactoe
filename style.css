@@ -1,0 +1,91 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(51, 57, 64);
+  color: rgb(236, 236, 236);
+  height: 10rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 5rem;
+  margin: 0;
+  color: #e8ecef;
+  background-color: #969ca1;
+  border: 1px solid #ffffff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  min-height: 100%;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  min-height: 100%;
+}
+
+.box {
+  border: solid 1px #000000;
+  margin: 1em;
+  height: 10em;
+  width: 10em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box span {
+  font-size: 5em;
+}
+
+.reset {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  margin: 0.5em 0;
+  cursor: pointer;
+}
+
+.box.X {
+  background-image: url(img/x.png.png);
+  background-size: cover;
+}
+
+.box.O {
+  background-image: url(img/o.png.png);
+  background-size: cover;
+}
